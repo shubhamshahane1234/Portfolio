@@ -8,8 +8,8 @@ const Nav = () => {
         {/* <!-- Logo --> */}
         <div class="relative w-12 h-12">
           <img
-            class="rounded-full border border-gray-100 shadow-sm"
-            src="https://randomuser.me/api/portraits/men/81.jpg"
+            class="rounded-full  border-indigo-200 border-2  shadow-sm"
+            src="/images/profile/profile.jpg"
             alt="user "
           />
           {/* <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div> */}

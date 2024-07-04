@@ -16,10 +16,10 @@ const Home = () => {
 </nav> */}
 
             <div class="text-center">
-              <div class="flex justify-center mb-4">
+              <div class="flex justify-center mb-4 ">
                 <img
-                  class="rounded-full border border-gray-100 shadow-sm"
-                  src="https://randomuser.me/api/portraits/men/81.jpg"
+                  class="rounded-full  h-32 w-32  border-indigo-200 border-2 shadow-sm"
+                  src="/images/profile/profile.jpg"
                   alt="Imag"
                 />
               </div>

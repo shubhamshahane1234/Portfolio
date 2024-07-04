@@ -7,6 +7,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Food Delivery App",
+      desc: "Developed a user-friendly food delivery app using ReactJS, ensuring intuitive navigation and enhanced user experience.",
       siteImg: "images/Projects/FoodieFeast.png",
       websiteLink: "https://shubhamfoodiefeast.vercel.app/",
       codeLink: "https://github.com/shubhamshahane1234/foodiefeast",
@@ -14,6 +15,7 @@ const Projects = () => {
 
     {
       title: "Latest PortFolio",
+      desc: "Discover a showcase of my latest front-end development projects, blending functionality with sleek design and seamless user experiences",
       siteImg: "images/Projects/newportfolio.png",
       websiteLink: "",
       codeLink: "",
@@ -21,24 +23,28 @@ const Projects = () => {
     {
       title: "E-Commerce Site",
       siteImg: "images/Projects/cealum.png",
+      desc: "Developed a modern web app facilitating online product browsing and purchase",
       websiteLink:
         "https://caelumgaurav-65468-react-native.b65468.dev.eastus.az.svc.builder.cafe/Home",
       codeLink: "",
     },
     {
       title: "Old Portfolio Site",
+      desc: "Created a single-page application showcasing personal projects and skills",
       siteImg: "images/Projects/oldportfolio.png",
       websiteLink: "https://shubhamshahane1234.github.io/home/",
       codeLink: "https://github.com/shubhamshahane1234/home",
     },
     {
       title: "Latest News",
+      desc: "Created a single-page application showcasing latest news.",
       siteImg: "images/Projects/latestnews.png",
       websiteLink: "https://shubhamshahane1234.github.io/latestnews/",
       codeLink: "https://github.com/shubhamshahane1234/latestnews",
     },
     {
       title: "News site (old)",
+      desc: "a foundational piece in my portfolio that highlights my early mastery of front-end development, paving the way for my current innovations.",
       siteImg: "images/Projects/oldnewssite.png",
       websiteLink: "https://shubhamshahane1234.github.io/news/",
       codeLink: "https://github.com/shubhamshahane1234/news",
@@ -64,21 +70,20 @@ const Projects = () => {
             {projects.map((project) => {
               return (
                 <div>
-                  <div class="flex flex-col items-center justify-center px-4 py-8 space-y-4">
-                    <div class="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
+                  <div class="flex flex-col items-center justify-center px-4 py-8 space-y-4 ">
+                    <div class="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg ">
                       <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 border-indigo-200 border-2 ">
                         <img src={project.siteImg} alt="site"></img>
                       </div>
-                      <div class="p-6">
+                      <div class="p-6 h-[180px] ">
                         <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                           {project.title}
                         </h5>
                         <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc felis ligula.
+                          {project.desc}
                         </p>
                       </div>
-                      <div class="p-6 pt-0 ">
+                      <div class="p-6  ">
                         <div class="flex justify-around items-center">
                           <a href={project.websiteLink}>
                             <CheckWebsite />

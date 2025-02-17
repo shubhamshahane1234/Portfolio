@@ -93,7 +93,7 @@ const Projects = () => {
                       <div class="p-6  ">
                         <div class="flex justify-around items-center">
                           <a href={project.websiteLink}>
-                            <CheckWebsite />
+                            <CheckWebsite webName={project.title} />
                           </a>
                           <a href={project.codeLink}>
                             {" "}

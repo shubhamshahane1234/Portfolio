@@ -49,6 +49,13 @@ const Projects = () => {
       websiteLink: "https://shubhamshahane1234.github.io/news/",
       codeLink: "https://github.com/shubhamshahane1234/news",
     },
+    {
+      title: "Chat-App",
+      desc: "Real-Time chat appllication created using Reactjs, Tailwindcss and Firebase",
+      siteImg: "images/Projects/chatapp.png",
+      websiteLink: "https://chatapp-ochre-theta.vercel.app/",
+      codeLink: "https://github.com/shubhamshahane1234/chatapp",
+    },
   ];
   return (
     <section class="">

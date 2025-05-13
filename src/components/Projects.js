@@ -63,7 +63,7 @@ const Projects = () => {
         <div class="space-y-4">
           <Element name="projects">
             {" "}
-            <h2 class="text-3xl font-bold text-center">Projects</h2>
+            <h2 class="text-3xl font-bold text-center">PROJECTS</h2>
           </Element>
           <p class="mx-auto font-light text-center text-gray-600 max-w-96">
             Here are few project i worked on recently

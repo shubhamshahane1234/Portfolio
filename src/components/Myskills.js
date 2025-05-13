@@ -7,26 +7,36 @@ const Myskills = () => {
     {
       title: "Frontend Technologies",
       imgLink: [
-        "/images/html.png",
-        "/images/css.logo.png",
-        "images/js.png",
-        "images/reactjs.png",
-        "images/ts.png",
+        { name: "HTML", link: "/images/html.png" },
+        { name: "CSS", link: "/images/css.logo.png" },
+        { name: "JavaScript", link: "images/js.png" },
+        { name: "ReactJS", link: "images/reactjs.png" },
+        { name: "TypeScript", link: "images/ts.png" },
+        { name: "Three JS", link: "images/threejs.png" },
       ],
     },
     {
       title: "UI Technologies",
-      imgLink: ["/images/mui.png", "/images/bs.png", "images/tailwind1.png"],
+      imgLink: [
+        { name: "Material UI", link: "/images/mui.png" },
+        { name: "Bootstrap", link: "/images/bs.png" },
+        { name: "Tailwind CSS", link: "images/tailwind1.png" },
+      ],
     },
     {
-      title: "State Management Technolgy",
-      imgLink: ["/images/redux2.png"],
+      title: "State Management Technology",
+      imgLink: [{ name: "Redux", link: "/images/redux2.png" }],
     },
     {
-      title: "Code Editor Tools",
-      imgLink: ["/images/vscode.png", "/images/sublime.png"],
+      title: "Testing Library",
+      imgLink: [
+        { name: "Jest", link: "/images/jest.png" },
+        { name: "Enzyme", link: "/images/enzyme.png" },
+        { name: "React test library", link: "/images/rtl.png" },
+      ],
     },
   ];
+
   return (
     <>
       {/* <section className="bg-[#E8E8E8] text-center h-[100%]  p-[9px]">
@@ -56,7 +66,7 @@ const Myskills = () => {
           <Element name="skills">
             {" "}
             <h2 className="text-center text-3xl font-bold mb-4">
-              Professional Skillset
+              TECHNICAL SKILLS
             </h2>
           </Element>
           {skills.map((skill, index) => (

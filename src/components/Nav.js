@@ -88,7 +88,7 @@ const Nav = () => {
         </svg> */}
             <span>
               <a
-                href="/assets/files/shubham_shahane_resumeU.pdf"
+                href="/assets/files/shubham_cvv1.pdf"
                 download="shubham_shahane_CV.pdf"
               >
                 Get my CV

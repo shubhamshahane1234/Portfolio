@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+#abouttitle {
+  background: linear-gradient(to right, #00b7ff, #fb4b00);
+  -webkit-background-clip: text; /* For Safari & Chrome */
+  background-clip: text; /* For other browsers (optional, safe to keep) */
+  color: transparent;
+  -webkit-text-fill-color: transparent; /* Ensures text becomes transparent */
+  font-weight: 900;
+}

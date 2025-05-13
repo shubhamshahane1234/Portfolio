@@ -31,7 +31,10 @@ const Home = () => {
                 </h6>
               </Element>
 
-              <h1 class="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-8">
+              <h1
+                id="designation"
+                class="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-8"
+              >
                 Frontend Developer (ReactJS)
               </h1>
 

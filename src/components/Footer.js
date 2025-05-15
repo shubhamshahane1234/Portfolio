@@ -5,8 +5,8 @@ const Footer = () => {
   const year = date.getFullYear();
   return (
     <footer class="font-lexend py-4 w-full min-h-full bg-gray-200">
-      <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xxl md:px-24 lg:px-8">
-        <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
+      <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xxl md:px-24 lg:px-8">
+        <div className="flex flex-col-reverse justify-between border-t lg:flex-row">
           <p className="text-sm text-gray-600">
             © Copyright {year} Shubham Shahane. All rights reserved.
           </p>

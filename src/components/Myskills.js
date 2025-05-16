@@ -74,7 +74,7 @@ const Myskills = () => {
               key={index}
               className="flex flex-col sm:flex-row items-center justify-between mt-6 sm:mt-8 p-4 sm:p-6"
             >
-              <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              <h5 class="mb-2 block font-[mono] text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                 {skill.title}
               </h5>
               {/* <h4 className="text-lg">{skill.title}</h4> */}

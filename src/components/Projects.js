@@ -6,27 +6,11 @@ import { Element } from "react-scroll";
 const Projects = () => {
   const projects = [
     {
-      title: "Food Delivery App",
-      desc: "Developed a user-friendly food delivery app using ReactJS, ensuring intuitive navigation and enhanced user experience.",
-      siteImg: "images/Projects/FoodieFeast.png",
-      websiteLink: "https://shubhamfoodiefeast.vercel.app/",
-      codeLink: "https://github.com/shubhamshahane1234/foodiefeast",
-    },
-
-    {
-      title: "Latest PortFolio",
-      desc: "Discover a showcase of my latest front-end development projects, blending functionality with sleek design and seamless user experiences",
-      siteImg: "images/Projects/newportfolio.png",
-      websiteLink: "",
-      codeLink: "",
-    },
-    {
-      title: "E-Commerce Site",
-      siteImg: "images/Projects/cealum.png",
-      desc: "Developed a modern web app facilitating online product browsing and purchase",
-      websiteLink:
-        "https://caelumgaurav-65468-react-native.b65468.dev.eastus.az.svc.builder.cafe/Home",
-      codeLink: "",
+      title: "Latest News",
+      desc: "Created a single-page application showcasing latest news.",
+      siteImg: "images/Projects/latestnews.png",
+      websiteLink: "https://shubhamshahane1234.github.io/latestnews/",
+      codeLink: "https://github.com/shubhamshahane1234/latestnews",
     },
     {
       title: "Old Portfolio Site",
@@ -35,19 +19,21 @@ const Projects = () => {
       websiteLink: "https://shubhamshahane1234.github.io/home/",
       codeLink: "https://github.com/shubhamshahane1234/home",
     },
+
     {
-      title: "Latest News",
-      desc: "Created a single-page application showcasing latest news.",
-      siteImg: "images/Projects/latestnews.png",
-      websiteLink: "https://shubhamshahane1234.github.io/latestnews/",
-      codeLink: "https://github.com/shubhamshahane1234/latestnews",
+      title: "Latest PortFolio",
+      desc: "Discover a showcase of my latest front-end development projects, blending functionality with sleek design and seamless user experiences",
+      siteImg: "images/Projects/newportfolio.png",
+      websiteLink: "https://shubham-portfolio-97.vercel.app/",
+      codeLink: "https://github.com/shubhamshahane1234/Portfolio",
     },
+
     {
-      title: "News site (old)",
-      desc: "a foundational piece in my portfolio that highlights my early mastery of front-end development, paving the way for my current innovations.",
-      siteImg: "images/Projects/oldnewssite.png",
-      websiteLink: "https://shubhamshahane1234.github.io/news/",
-      codeLink: "https://github.com/shubhamshahane1234/news",
+      title: "Food Delivery App",
+      desc: "Developed a user-friendly food delivery app using ReactJS, ensuring intuitive navigation and enhanced user experience.",
+      siteImg: "images/Projects/FoodieFeast.png",
+      websiteLink: "https://shubhamfoodiefeast.vercel.app/",
+      codeLink: "https://github.com/shubhamshahane1234/foodiefeast",
     },
     {
       title: "Chat-App",
@@ -55,6 +41,14 @@ const Projects = () => {
       siteImg: "images/Projects/chatapp.png",
       websiteLink: "https://chatapp-ochre-theta.vercel.app/",
       codeLink: "https://github.com/shubhamshahane1234/chatapp",
+    },
+    {
+      title: "ShopSense",
+      desc: "E-commerce appllication created using Nextjs, Tailwindcss and MongoDB",
+      siteImg: "images/Projects/shopsense.png",
+      websiteLink: "https://shopsenseshop-x1mg.vercel.app/",
+      codeLink:
+        "https://github.com/shubhamshahane1234/shopsenseshop/tree/shopsensestore/shopsense",
     },
   ];
   return (
@@ -74,7 +68,7 @@ const Projects = () => {
           <div class="absolute hidden w-px h-full md:block bg-gray-950/10 left-1/2 lg:left-1/3"></div>
           <div class="absolute left-0 hidden w-full h-px lg:w-px lg:h-full bg-gray-950/10 lg:left-2/3 top-2/3 lg:top-0 md:block"></div> */}
           <div class="grid grid-cols-1 gap-4 p-4  md:grid-cols-2 lg:grid-cols-3 ">
-            {projects.map((project) => {
+            {projects.reverse().map((project) => {
               return (
                 <div>
                   <div class="flex flex-col items-center justify-center px-4 py-8 space-y-4 ">

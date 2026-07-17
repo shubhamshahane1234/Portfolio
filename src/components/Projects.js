@@ -65,7 +65,7 @@ const Projects = () => {
       codeLink: "https://github.com/shubhamshahane1234/ForgeFit",
     },
     {
-      title: "FitForge",
+      title: "3D Portfolio Model",
       desc: "3D portfolio created using GSAP, Threejs and react-three-fiber to showcase 3d model skills and animations and Also create my own 3D model which looks like me.",
       siteImg: "images/Projects/3dmodel.png",
       websiteLink: "https://react3fibreportfolionew.vercel.app/",

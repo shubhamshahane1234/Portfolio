@@ -50,6 +50,27 @@ const Projects = () => {
       codeLink:
         "https://github.com/shubhamshahane1234/shopsenseshop/tree/shopsensestore/shopsense",
     },
+    {
+      title: "Kanban style todo app",
+      desc: "Kanban style todo app with drag , swap, delete and edit all functionality.",
+      siteImg: "images/Projects/kanban.png",
+      websiteLink: "https://kanban-style-todo.vercel.app/",
+      codeLink: "https://github.com/shubhamshahane1234/kanbanStyleTodo",
+    },
+    {
+      title: "FitForge",
+      desc: "Gym Fitness Website created using Reactjs, Tailwindcss, and ThreeJS",
+      siteImg: "images/Projects/fitforge.png",
+      websiteLink: "https://forge-fit-jet.vercel.app/",
+      codeLink: "https://github.com/shubhamshahane1234/ForgeFit",
+    },
+    {
+      title: "FitForge",
+      desc: "3D portfolio created using GSAP, Threejs and react-three-fiber to showcase 3d model skills and animations and Also create my own 3D model which looks like me.",
+      siteImg: "images/Projects/3dmodel.png",
+      websiteLink: "https://react3fibreportfolionew.vercel.app/",
+      codeLink: "https://github.com/shubhamshahane1234/react3fibreportfolionew",
+    },
   ];
   return (
     <section class="">

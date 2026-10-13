@@ -44,7 +44,7 @@ const Projects = () => {
                       <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 border-indigo-200 border-2 ">
                         <img  src={
     project.siteImg?.url
-      ? `http://localhost:1337${project.siteImg.url}`
+      ? `https://my-strapi-portfolio.onrender.com${project.siteImg.url}`
       : ""
   }
   alt={project.title}></img>

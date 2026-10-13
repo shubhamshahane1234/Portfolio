@@ -16,7 +16,7 @@ const Nav = () => {
           setResumeUrl(
             file.url.startsWith("http")
               ? file.url
-              : `http://localhost:1337${file.url}`
+              : `https://my-strapi-portfolio.onrender.com${file.url}`
           );
         }
       })

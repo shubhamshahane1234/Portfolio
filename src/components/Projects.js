@@ -10,7 +10,7 @@ const Projects = () => {
 
 
   useEffect(() => {
-    fetch("http://localhost:1337/api/projects?populate=siteImg")
+    fetch("https://my-strapi-portfolio.onrender.com/api/projects?populate=siteImg")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch projects");
         return res.json();

@@ -7,7 +7,7 @@ const Nav = () => {
 
 
   useEffect(() => {
-    fetch("http://localhost:1337/api/global?populate=resume")
+    fetch("https://my-strapi-portfolio.onrender.com/api/global?populate=resume")
       .then((res) => res.json())
       .then((result) => {
         const file = result.data?.resume;

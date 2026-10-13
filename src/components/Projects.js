@@ -5,74 +5,7 @@ import { Element } from "react-scroll";
 
 const Projects = () => {
   const [projectss, setProjects] = useState([]);
-  const projects = [
-    {
-      title: "Latest News",
-      desc: "Created a single-page application showcasing latest news.",
-      siteImg: "images/Projects/latestnews.png",
-      websiteLink: "https://shubhamshahane1234.github.io/latestnews/",
-      codeLink: "https://github.com/shubhamshahane1234/latestnews",
-    },
-    {
-      title: "Old Portfolio Site",
-      desc: "Created a single-page application showcasing personal projects and skills",
-      siteImg: "images/Projects/oldportfolio.png",
-      websiteLink: "https://shubhamshahane1234.github.io/home/",
-      codeLink: "https://github.com/shubhamshahane1234/home",
-    },
 
-    {
-      title: "Latest PortFolio",
-      desc: "Discover a showcase of my latest front-end development projects, blending functionality with sleek design and seamless user experiences",
-      siteImg: "images/Projects/newportfolio.png",
-      websiteLink: "https://shubham-portfolio-97.vercel.app/",
-      codeLink: "https://github.com/shubhamshahane1234/Portfolio",
-    },
-
-    {
-      title: "Food Delivery App",
-      desc: "Developed a user-friendly food delivery app using ReactJS, ensuring intuitive navigation and enhanced user experience.",
-      siteImg: "images/Projects/FoodieFeast.png",
-      websiteLink: "https://shubhamfoodiefeast.vercel.app/",
-      codeLink: "https://github.com/shubhamshahane1234/foodiefeast",
-    },
-    {
-      title: "Chat-App",
-      desc: "Real-Time chat appllication created using Reactjs, Tailwindcss and Firebase",
-      siteImg: "images/Projects/chatapp.png",
-      websiteLink: "https://chatapp-ochre-theta.vercel.app/",
-      codeLink: "https://github.com/shubhamshahane1234/chatapp",
-    },
-    {
-      title: "ShopSense",
-      desc: "E-commerce appllication created using Nextjs, Tailwindcss and MongoDB",
-      siteImg: "images/Projects/shopsense.png",
-      websiteLink: "https://shopsenseshop-x1mg.vercel.app/",
-      codeLink:
-        "https://github.com/shubhamshahane1234/shopsenseshop/tree/shopsensestore/shopsense",
-    },
-    {
-      title: "Kanban style todo app",
-      desc: "Kanban style todo app with drag , swap, delete and edit all functionality.",
-      siteImg: "images/Projects/kanban.png",
-      websiteLink: "https://kanban-style-todo.vercel.app/",
-      codeLink: "https://github.com/shubhamshahane1234/kanbanStyleTodo",
-    },
-    {
-      title: "FitForge",
-      desc: "Gym Fitness Website created using Reactjs, Tailwindcss, and ThreeJS",
-      siteImg: "images/Projects/fitforge.png",
-      websiteLink: "https://forge-fit-jet.vercel.app/",
-      codeLink: "https://github.com/shubhamshahane1234/ForgeFit",
-    },
-    {
-      title: "3D Portfolio Model",
-      desc: "3D portfolio created using GSAP, Threejs and react-three-fiber to showcase 3d model skills and animations and Also create my own 3D model which looks like me.",
-      siteImg: "images/Projects/3dmodel.png",
-      websiteLink: "https://react3fibreportfolionew.vercel.app/",
-      codeLink: "https://github.com/shubhamshahane1234/react3fibreportfolionew",
-    },
-  ];
 
 
 

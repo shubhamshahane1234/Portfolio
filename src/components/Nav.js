@@ -1,7 +1,28 @@
-import React from "react";
+import React , {useState, useEffect} from "react";
 import { Link } from "react-scroll";
 
 const Nav = () => {
+  const [resumeUrl, setResumeUrl] = useState("");
+
+
+
+  useEffect(() => {
+    fetch("https://my-strapi-portfolio.onrender.com/api/global?populate=resume")
+      .then((res) => res.json())
+      .then((result) => {
+        const file = result.data?.resume;
+  
+        if (file?.url) {
+          setResumeUrl(
+            file.url.startsWith("http")
+              ? file.url
+              : `https://my-strapi-portfolio.onrender.com${file.url}`
+          );
+        }
+      })
+      .catch(console.error);
+  }, []);
+
   return (
     <nav class="bg-gray-200 fixed w-[100%] z-20 shadow shadow-gray-300 w-100 px-8 md:px-auto  ">
       <div class="md:h-16 h-28 mx-auto md:px-4  flex items-center justify-between flex-wrap md:flex-nowrap">
@@ -88,7 +109,7 @@ const Nav = () => {
         </svg> */}
             <span>
               <a
-                href="/assets/files/shubham_uucv.pdf"
+                href={resumeUrl}
                 download="shubham_shahane_CV.pdf"
               >
                 Get my CV

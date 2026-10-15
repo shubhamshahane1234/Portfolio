@@ -85,21 +85,6 @@ import { Element } from "react-scroll";
 const Projects = () => {
   const projects = [
     {
-      title: "Latest News",
-      desc: "Created a single-page application showcasing latest news.",
-      siteImg: "images/Projects/latestnews.png",
-      websiteLink: "https://shubhamshahane1234.github.io/latestnews/",
-      codeLink: "https://github.com/shubhamshahane1234/latestnews",
-    },
-    {
-      title: "Old Portfolio Site",
-      desc: "Created a single-page application showcasing personal projects and skills",
-      siteImg: "images/Projects/oldportfolio.png",
-      websiteLink: "https://shubhamshahane1234.github.io/home/",
-      codeLink: "https://github.com/shubhamshahane1234/home",
-    },
-
-    {
       title: "Latest PortFolio",
       desc: "Discover a showcase of my latest front-end development projects, blending functionality with sleek design and seamless user experiences",
       siteImg: "images/Projects/newportfolio.png",
